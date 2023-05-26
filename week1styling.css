@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#main-header {
+  margin: 3rem 0 2rem 0;
+}
+
+#nav-links {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  display: inline;
+  background-color: black;
+  width: 100%;
+  margin: 0px;
+  text-align: center;
+  padding: 10px;
+}
+
+body {
+  font-family: "Times New Roman", Times, serif;
+  background-color: rgb(25, 26, 25);
+}
+
+img {
+  width: 50%;
+}
+
+#image-1 {
+  text-align: center;
+  width: 100%;
+  padding: 2rem;
+  border-top: 2px solid #868686;
+  border-bottom: 2px solid #868686;
+  margin: 2rem 0 3rem 0;
+  background-color: #ccc;
+}
+
+#contact-form {
+  height: 30rem;
+}
+
+.contactform {
+  font-size: 30px;
+  background-color: black;
+  color: white;
+  margin-top: 15%;
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+}
+
+#complaint-text {
+  color: red;
+  width: 70%;
+  font-size: 50px;
+  text-align: center;
+  margin: 5rem auto;
+}
+#Services-text {
+  color: red;
+  width: 100%;
+  font-size: 100px;
+  text-align: center;
+  background-color: teal;
+  color: orange;
+  margin: 6rem auto;
+}
+
+#close-button {
+  font-size: 50px;
+  margin-top: 2rem;
+}
+
+#navbar-complaint {
+  color: red;
+  float: right;
+}
+
+#navbar-contact {
+  float: left;
+  color: red;
+}
+
+#navbar-service {
+  color: red;
+}
+
+h1 {
+  text-align: center;
+  color: white;
+  height: auto;
+}
+
+#contactname,
+#contactemail {
+  font-size: 30px;
+}
+
+#footer {
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+  color: black;
+  background-color: rgb(248, 15, 190);
+  width: 100%;
+  padding: 4px;
+  color: white;
+}
+footer * {
+  text-align: center;
+  display: inline;
+}
